@@ -81,3 +81,25 @@ git commit -m "Initial CBC Tools workspace"
 git remote add origin <URL_DEL_REPOSITORIO>
 git push -u origin main
 ```
+
+## Deploy de BOT_CBC en Render
+
+El repo incluye `render.yaml` para crear el servicio `bot-cbc` desde Render usando Blueprint.
+
+Variables que debes configurar en Render:
+
+```txt
+SUPABASE_URL=
+SUPABASE_ANON_KEY=
+SUPABASE_READABLE_TABLES=
+GEMINI_API_KEY=
+GEMINI_MODEL=gemini-2.5-flash-lite
+```
+
+Render define `PORT` automaticamente. No lo configures manualmente salvo que Render lo pida.
+
+Endpoint de salud:
+
+```txt
+/healthz
+```

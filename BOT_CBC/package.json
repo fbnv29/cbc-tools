@@ -4,6 +4,9 @@
   "type": "module",
   "description": "Bot IA con Supabase y Express",
   "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"

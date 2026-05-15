@@ -15,6 +15,10 @@ const aiResponseCache = new Map();
 app.use(express.json());
 app.use(express.static("public")); // Aquí serviremos nuestra web
 
+app.get("/healthz", (req, res) => {
+  res.json({ ok: true, service: "bot-cbc" });
+});
+
 app.post("/api/chat", async (req, res) => {
   const { question } = req.body;
   if (typeof question !== "string" || !question.trim()) {
