@@ -27,6 +27,7 @@ Fecha de contexto: 2026-05-15
 
 - Stack: React + Vite + Supabase.
 - Comando local: `npm run dev` dentro de `CHANELS_CBC`.
+- URL publica actual: `https://canales-cbc.netlify.app`.
 - Rol: mapa de canales, entradas y monitores para sonido/alabanza.
 - Estado visual: es la referencia grafica principal del ecosistema.
 - Notas:
