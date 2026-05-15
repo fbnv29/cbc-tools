@@ -86,6 +86,10 @@ git push -u origin main
 
 El repo incluye `render.yaml` para crear el servicio `bot-cbc` desde Render usando Blueprint.
 
+Boton directo:
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/fbnv29/cbc-tools)
+
 Variables que debes configurar en Render:
 
 ```txt
