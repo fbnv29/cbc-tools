@@ -1,0 +1,65 @@
+.public-view {
+  padding: 40px; /* Audit: Aumentado de 32px para un marco más premium */
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.channel-section {
+  margin-bottom: 48px; /* Audit: Espaciado más claro entre bloques */
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 2px; /* Audit: Alineamiento óptico con el borde de las tarjetas */
+}
+
+.section-title h3 {
+  font-size: 0.75rem; /* Audit: Ligeramente más pequeño para contraste jerárquico */
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.25em; /* Audit: Más tracking para estilo editorial de audio */
+  color: var(--text-muted);
+}
+
+.channel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px; /* Audit: Aumentado de 8px para mejor separación visual */
+}
+
+.empty-state {
+  padding: 60px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-surface);
+}
+
+@media (max-width: 768px) {
+  .public-view {
+    padding: 24px;
+  }
+  
+  .channel-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .public-view {
+    padding: 16px;
+  }
+  
+  .channel-section {
+    margin-bottom: 32px;
+  }
+}

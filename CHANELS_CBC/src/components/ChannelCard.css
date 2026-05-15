@@ -1,0 +1,100 @@
+.channel-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: stretch;
+  height: 64px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: all var(--transition-fast);
+  cursor: default;
+}
+
+.channel-card:hover {
+  border-color: var(--color-border-bright);
+  background: var(--color-bg-card-hover);
+  transform: translateY(-1px);
+}
+
+.channel-id-box {
+  background: #000000;
+  width: 56px; /* Audit: Aumentado de 50px para mejor equilibrio visual con el número */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.channel-num {
+  font-family: var(--font-mono);
+  font-size: 1.5rem; /* Audit: Aumentado ligeramente para mayor impacto */
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+.channel-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 20px; /* Audit: Aumentado de 16px para mayor "aire" interno */
+  min-width: 0;
+}
+
+.channel-name-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em; /* Audit: Un poco más de tracking para estilo pro */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1;
+}
+
+.channel-status-box {
+  display: flex;
+  align-items: center;
+  padding-right: 20px; /* Audit: Simetría con el padding izquierdo */
+  flex-shrink: 0;
+}
+
+.channel-card.muted {
+  background: var(--color-bg-surface);
+  border-color: var(--color-border-subtle);
+  opacity: 0.6;
+}
+
+.channel-card.muted .channel-num {
+  color: var(--text-muted);
+}
+
+.channel-card.muted .channel-id-box {
+  background: #050505;
+}
+
+@media (max-width: 600px) {
+  .channel-card {
+    height: 58px;
+  }
+  
+  .channel-id-box {
+    width: 48px;
+  }
+  
+  .channel-num {
+    font-size: 1.25rem;
+  }
+  
+  .channel-content {
+    padding: 0 14px;
+  }
+  
+  .channel-status-box {
+    padding-right: 14px;
+  }
+}

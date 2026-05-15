@@ -1,0 +1,265 @@
+.admin-dashboard {
+  padding: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Login Screen Styles */
+.admin-login-container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login-box {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  padding: 40px;
+  border-radius: var(--radius-md);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+}
+
+.login-box h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.login-box p {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 24px;
+}
+
+.login-box input {
+  width: 100%;
+  background: #000000;
+  border: 1px solid var(--color-border);
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  color: #ffffff;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 16px;
+  transition: border-color var(--transition-fast);
+}
+
+.login-box input:focus {
+  border-color: var(--color-blue);
+  outline: none;
+}
+
+.login-error {
+  display: block;
+  color: var(--color-red);
+  font-size: 0.75rem;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+/* Header & Stats Rack */
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  background: var(--color-bg-surface);
+  padding: 28px 40px; /* Audit: Más padding para mayor impacto */
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
+  position: relative;
+}
+
+.header-info h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 4px;
+}
+
+.header-info p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.stats-rack {
+  display: flex;
+  gap: 48px; /* Audit: Más separación entre unidades de stats */
+  align-items: center;
+}
+
+.stat-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.stat-value {
+  font-family: var(--font-mono);
+  font-size: 2.2rem; /* Audit: Más grande y potente */
+  font-weight: 900;
+  color: var(--color-green);
+  text-shadow: 0 0 15px var(--color-green-glow);
+  line-height: 1;
+}
+
+.stat-unit:nth-child(2) .stat-value {
+  color: var(--text-muted);
+  text-shadow: none; /* Mute es menos brillante por diseño */
+}
+
+.stat-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--text-muted);
+  letter-spacing: 0.25em;
+  opacity: 0.7;
+}
+
+.auth-controls {
+  margin-left: 20px;
+  padding-left: 32px;
+  border-left: 1px solid var(--color-border);
+}
+
+.btn-logout {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--text-muted);
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-logout:hover {
+  border-color: var(--color-red);
+  color: #ffffff;
+  background: var(--color-red);
+  box-shadow: 0 0 15px rgba(231, 76, 60, 0.3);
+}
+
+/* Table & Inline Inputs */
+.admin-table-container {
+  overflow-x: auto;
+  margin: 0 -20px;
+  padding: 0 20px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  min-width: 600px; /* Asegura que la tabla no sea ilegible en móviles muy pequeños */
+}
+
+.admin-table th {
+  background: #000;
+  padding: 14px 16px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.admin-table td {
+  padding: 8px 16px; 
+  border-bottom: 1px solid var(--color-border-subtle);
+  vertical-align: middle;
+}
+
+.inline-edit-input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid transparent;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  transition: all var(--transition-fast);
+}
+
+.inline-edit-input:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.inline-edit-input:focus {
+  background: #0b0b0b;
+  border-color: var(--color-blue);
+  outline: none;
+  box-shadow: 0 0 0 1px var(--color-blue);
+}
+
+.inline-edit-input.main-input {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.inline-edit-input.sub-input {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.row-muted {
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+  .admin-dashboard {
+    padding: 20px 10px;
+  }
+
+  .admin-header {
+    flex-direction: column;
+    padding: 20px;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .stats-rack {
+    gap: 24px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .stat-value {
+    font-size: 1.8rem;
+  }
+  
+  .auth-controls {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  .inline-edit-input {
+    font-size: 16px; /* Evita auto-zoom en iOS */
+  }
+
+  .admin-section h3 {
+    padding-left: 10px;
+  }
+}

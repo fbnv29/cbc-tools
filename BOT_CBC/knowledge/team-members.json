@@ -1,0 +1,166 @@
+[
+  {
+    "nombre": "Felipe Novoa",
+    "alias": ["Pipe"],
+    "roles": [
+      { "rol": "guitarra acústica", "frecuencia": "alta" },
+      { "rol": "director de alabanza", "frecuencia": "media" }
+    ]
+  },
+  {
+    "nombre": "Abigail Valenzuela",
+    "alias": ["Abby"],
+    "roles": [
+      { "rol": "voz coro", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Andrés Valenzuela",
+    "alias": ["Andy"],
+    "roles": [
+      { "rol": "director de alabanza", "frecuencia": "alta" },
+      { "rol": "guitarra acústica", "frecuencia": "media" }
+    ]
+  },
+  {
+    "nombre": "Araceli Guzmán",
+    "alias": ["Ara"],
+    "roles": [
+      { "rol": "voz coro", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Benjamín Díaz",
+    "alias": ["Benja"],
+    "roles": [
+      { "rol": "batería", "frecuencia": "alta" },
+      { "rol": "guitarra acústica", "frecuencia": "alta" },
+      { "rol": "director de alabanza", "frecuencia": "media" },
+      { "rol": "voz", "frecuencia": "media" }
+    ]
+  },
+  {
+    "nombre": "Damary Estuardo",
+    "alias": [],
+    "roles": [
+      { "rol": "voz coro", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Denise Castillo",
+    "alias": ["Deni"],
+    "roles": [
+      { "rol": "director de alabanza", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Edgar Gómez",
+    "alias": ["Edi"],
+    "roles": [
+      { "rol": "guitarra acústica", "frecuencia": "alta" },
+      { "rol": "guitarra eléctrica", "frecuencia": "media" },
+      { "rol": "piano", "frecuencia": "media" }
+    ]
+  },
+  {
+    "nombre": "Fidel Calfín",
+    "alias": [],
+    "roles": [
+      { "rol": "director de alabanza", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Jonathan Sandoval",
+    "alias": ["Joni"],
+    "roles": [
+      { "rol": "guitarra eléctrica", "frecuencia": "alta" },
+      { "rol": "bajo", "frecuencia": "media" }
+    ]
+  },
+  {
+    "nombre": "Karen Vallejos",
+    "alias": [],
+    "roles": [
+      { "rol": "director de alabanza", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Moisés Chodiman",
+    "alias": ["Moise"],
+    "roles": [
+      { "rol": "piano", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Natalia Suárez",
+    "alias": ["Nati"],
+    "roles": [
+      { "rol": "director de alabanza", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Pablo Fuentes",
+    "alias": [],
+    "roles": [
+      { "rol": "piano", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Patricio Tapia",
+    "alias": ["Pato"],
+    "roles": [
+      { "rol": "batería", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Paulo Puentes",
+    "alias": [],
+    "roles": [
+      { "rol": "bajo", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Pilar Beltrán",
+    "alias": ["Pili"],
+    "roles": [
+      { "rol": "director de alabanza", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Sara",
+    "alias": [],
+    "roles": [
+      { "rol": "voz coro", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Nicolás Cárdenas",
+    "alias": ["Nico"],
+    "roles": [
+      { "rol": "guitarra acústica", "frecuencia": "alta" },
+      { "rol": "director de alabanza", "frecuencia": "media" }
+    ]
+  },
+  {
+    "nombre": "Mario Martínez",
+    "alias": [],
+    "roles": [
+      { "rol": "bajo", "frecuencia": "alta" }
+    ]
+  },
+  {
+    "nombre": "Fabian Villalobos",
+    "alias": [],
+    "roles": [
+      { "rol": "piano", "frecuencia": "alta" },
+      { "rol": "guitarra eléctrica", "frecuencia": "media" }
+    ]
+  },
+  {
+    "nombre": "Felipe Quiñones",
+    "alias": ["Pipo"],
+    "roles": [
+      { "rol": "bajo", "frecuencia": "alta" }
+    ]
+  }
+]

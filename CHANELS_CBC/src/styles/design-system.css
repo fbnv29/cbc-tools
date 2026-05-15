@@ -1,0 +1,52 @@
+/* ========================================
+   DESIGN SYSTEM — DONDE ME CONECTO V2
+   Estética: Presonus StudioLive / Dark Audio
+   ======================================== */
+
+:root {
+  /* === PALETA DARK AUDIO (PROFESIONAL) === */
+  --color-bg-base:       #050608;
+  --color-bg-surface:    #0a0b0d;
+  --color-bg-elevated:   #121417;
+  --color-bg-card:       #1a1c21;
+  --color-bg-card-hover: #22252b;
+  --color-bg-input:      #08090b;
+  --color-border:        #2a2d35;
+  --color-border-subtle: #1c1e24;
+  --color-border-bright: #3f4450;
+
+  /* === LEDS Y ESTADOS (MÁS SUTILES) === */
+  --color-green:         #00ff88;
+  --color-green-glow:    rgba(0, 255, 136, 0.2);
+  --color-red:           #ff3e3e;
+  --color-blue-accent:   #00a2ff; /* Usar con moderación */
+
+  /* === TIPOGRAFÍA PRESONUS STYLE === */
+  --font-sans:   'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:   'JetBrains Mono', monospace;
+
+  /* === TEXTO === */
+  --text-primary:   #ffffff;
+  --text-secondary: #a0a6b5;
+  --text-muted:     #62697a;
+  
+  /* === ESPACIADO === */
+  --space-xs:   4px;
+  --space-sm:   8px;
+  --space-md:   16px;
+  --space-lg:   24px;
+  --space-xl:   32px;
+
+  /* === BORDES === */
+  --radius-sm:  4px;
+  --radius-md:  6px;
+  --radius-lg:  8px;
+
+  /* === SOMBRAS (TÁCTILES PRO) === */
+  --shadow-card:    0 4px 6px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.05);
+  --shadow-elevated: 0 10px 30px rgba(0, 0, 0, 0.7);
+
+  /* === TRANSICIONES === */
+  --transition-fast:   100ms ease-out;
+  --transition-normal: 200ms ease-out;
+}

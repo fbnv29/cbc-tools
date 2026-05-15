@@ -1,0 +1,13 @@
+{
+  "name": "cbc-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portal y herramientas web para CBC: alabanza, sonido y multimedia.",
+  "scripts": {
+    "dev:portal": "python3 -m http.server 8080",
+    "dev:channels": "npm --prefix CHANELS_CBC run dev",
+    "dev:bot": "npm --prefix BOT_CBC start",
+    "build": "npm --prefix CHANELS_CBC run build",
+    "lint": "npm --prefix CHANELS_CBC run lint"
+  }
+}
