@@ -101,7 +101,7 @@ function getLocalAnswer(question) {
 
   if (!asksCapabilities) return null;
 
-  return "Puedo ayudarte a consultar información técnica del ministerio de alabanza: canales de entrada, salidas de monitor, canciones disponibles, BPM, compás, subdivisión, acentos y notas registradas. Si un dato no está en la base autorizada, te lo diré claramente.";
+  return "Soy CeBot, el asistente del ministerio de alabanza CBC. Puedo ayudarte a consultar información técnica del ministerio: canales de entrada, salidas de monitor, canciones disponibles, BPM, compás, subdivisión, acentos y notas registradas. Si un dato no está en la base autorizada, te lo diré claramente.";
 }
 
 function getCachedAnswer(key) {

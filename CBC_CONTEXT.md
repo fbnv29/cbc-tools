@@ -51,6 +51,7 @@ Fecha de contexto: 2026-05-15
 - Comando local: `npm start` dentro de `BOT_CBC`.
 - URL local esperada: `http://localhost:3000`.
 - Deploy preparado: `render.yaml` en la raiz configura un servicio Render llamado `bot-cbc`.
+- Identidad: el asistente se llama CeBot, con marca visual de bot musical CBC.
 - Rol: asistente de consulta para informacion autorizada del ministerio.
 - Notas:
   - La interfaz web depende del backend para `/api/chat`.
